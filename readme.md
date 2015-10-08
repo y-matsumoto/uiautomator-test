@@ -19,7 +19,7 @@ AppConst.javaのTARGET_PKGに対象のアプリのパッケージ名をいれる
 プロジェクト直下でコマンドを実行する
 
     $ ant build
-ビルドしてuiautomator.jarがbinに作成される
+ビルドしてUiautomator.jarがbinに作成される
 
 ## jarファイルをエミュレータまたは実機に設置
 data/local/tmp直下にuiautomatorを設置する
@@ -27,7 +27,7 @@ data/local/tmp直下にuiautomatorを設置する
 ## 実行
 エミュレータまたは実機を起動し接続した状態でコマンドを実行する
 
-    $ adb shell uiautomator runtest UiautomatorSample.jar -c test.test
+    $ adb shell Uiautomator runtest Uiautomator.jar -c test.test
 
 これでエミュレータまたは実機上で指定のアプリを起動すると続きはテストコードで自動に実施される
 
